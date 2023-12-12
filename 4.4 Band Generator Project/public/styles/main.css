@@ -23,8 +23,8 @@ h1 {
 }
 
 input {
-  appearance: none;
   -webkit-appearance: none;
+  appearance: none;
   border: 0;
   font-size: 0.9rem;
   background: #888;
