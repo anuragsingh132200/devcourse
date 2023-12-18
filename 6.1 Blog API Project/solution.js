@@ -53,7 +53,7 @@ app.get("/posts/:id", (req, res) => {
 
 // POST a new post
 app.post("/posts", (req, res) => {
-  const newId = lastId += 1;
+  const newId = (lastId += 1);
   const post = {
     id: newId,
     title: req.body.title,
