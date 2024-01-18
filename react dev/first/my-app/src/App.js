@@ -1,12 +1,7 @@
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
-  );
+export default () => {
+    return (
+        <div>
+            hello world
+        </div>
+    );
 }
-
-export default App;
